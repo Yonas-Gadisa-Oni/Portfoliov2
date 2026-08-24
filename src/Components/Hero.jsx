@@ -1,4 +1,6 @@
-﻿const HERO_ACTIONS = [
+﻿const profileImage = `${import.meta.env.BASE_URL}img/photo.jpg`;
+
+const HERO_ACTIONS = [
   { label: 'View Work', href: '#work', variant: 'primary' },
   { label: "Let's Talk", href: '#contact', variant: 'secondary' },
 ];
@@ -24,7 +26,7 @@ function Hero() {
             Building <span>Things</span> That Matter
           </h1>
 
-          <img src="/img/photo.jpg" alt="" />
+          <img src={profileImage} alt="Profile" />
         </div>
         
         <p className="hero-copy">

@@ -1,10 +1,12 @@
 const About = () => {
+  const profileImage = `${import.meta.env.BASE_URL}img/photo.jpg`;
+
   return (
     <section className="about" id="about">
       <div className="about-grid">
         <div className="about-card">
           <div className="about-image">
-            <img src="/img/photo.jpg" alt="" />
+            <img src={profileImage} alt="Profile" />
             <div className="about-badge">
               <span className="about-badge-label">Trusted by teams</span>
               <p className="about-badge-text">
