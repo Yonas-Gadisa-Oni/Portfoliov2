@@ -693,7 +693,8 @@ select {
   display: block;
   width: 100%;
   position: relative;
-  min-height: 260px;
+  aspect-ratio: 16 / 10;
+  min-height: 220px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
   background-size: cover;
   background-position: center;

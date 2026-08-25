@@ -7,16 +7,18 @@ const PROJECTS = [
     year: '2026',
     image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNOWxkqSZtJlujFAoWwgby2_-WUVB06-fQ7QtLVk5wWMB604DQSTQi008&s=10',
     imageClass: 'project-image--luxe',
+    url: 'https://yonas-gadisa-oni.github.io/Luxe-E-commerce/',
     tags: ['React', 'TypeScript', 'Figma', 'Storybook'],
   },
   {
     id: 2,
-    title: 'Aether Analytics',
+    title: 'Restaurant',
     subtitle: 'Full-stack / Data Viz',
     description: 'Real-time data visualization dashboard for IoT sensor networks. Handles 50k events per second with sub-100ms render latency using WebSocket streaming.',
     year: '2026',
-    imageClass: 'project-image--aether',
+    image: 'https://yonas-gadisa-oni.github.io/Restaurant/images/room.avif',
     tags: ['Next.js', 'D3.js', 'Supabase', 'WebSockets'],
+    url: 'https://yonas-gadisa-oni.github.io/Restaurant/',
   },
 ];
 
@@ -31,25 +33,16 @@ function Work() {
       <div className="projects-grid">
         {PROJECTS.map((project) => (
           <article key={project.id} className="project-card">
-            {project.id === 1 ? (
-              <a
-                href="https://yonas-gadisa-oni.github.io/Luxe-E-commerce/"
-                target="_blank"
-                rel="noreferrer"
-                className={`project-image ${project.imageClass}`}
-                style={project.image ? { backgroundImage: `url(${project.image})` } : undefined}
-                aria-label={`Open ${project.title} project website`}
-              >
-                <span className="project-badge">{project.year}</span>
-              </a>
-            ) : (
-              <div
-                className={`project-image ${project.imageClass}`}
-                style={project.image ? { backgroundImage: `url(${project.image})` } : undefined}
-              >
-                <span className="project-badge">{project.year}</span>
-              </div>
-            )}
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noreferrer"
+              className={`project-image ${project.imageClass || ''}`}
+              style={project.image ? { backgroundImage: `url(${project.image})` } : undefined}
+              aria-label={`Open ${project.title} project website`}
+            >
+              <span className="project-badge">{project.year}</span>
+            </a>
 
             <div className="project-content">
               <p className="project-meta">{project.id.toString().padStart(2, '0')} • {project.subtitle}</p>
