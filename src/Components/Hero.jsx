@@ -6,9 +6,9 @@ const HERO_ACTIONS = [
 ];
 
 const HERO_STATS = [
-  { value: '6+', label: 'Years Experience' },
-  { value: '40+', label: 'Projects Shipped' },
-  { value: '12', label: 'Happy Clients' },
+  { value: '>1', label: 'Years Experience' },
+  { value: '2', label: 'Projects Shipped' },
+  { value: '--', label: 'Happy Clients' },
   { value: '4.9?', label: 'Avg. Rating' },
 ];
 
@@ -16,7 +16,7 @@ function Hero() {
   return (
     <main className="hero" id="home">
       <div className="hero-top">
-        <p className="hero-eyebrow">Full-stack developer</p>
+        <p className="hero-eyebrow">Front-end developer</p>
         <p className="hero-meta">Available for work � 2026</p>
       </div>
 
@@ -30,7 +30,7 @@ function Hero() {
         </div>
         
         <p className="hero-copy">
-          I build fast, accessible, and beautifully designed products • from design systems to full-stack apps.
+          I build fast, accessible, and beautifully designed products • from design systems to front-end apps.
         </p>
 
         <div className="hero-actions">
