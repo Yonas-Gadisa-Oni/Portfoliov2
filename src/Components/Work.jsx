@@ -28,7 +28,7 @@ const PROJECTS = [
     year: '2026',
     image: `${import.meta.env.BASE_URL}img/Screenshot%202026-10-07%20191210.png`,
     tags: ['Next.js', 'D3.js', 'Supabase', 'WebSockets'],
-    url: 'https://yonas-gadisa-oni.github.io/Wende-Luxury/AboutUs',
+    url: 'https://yonas-gadisa-oni.github.io/Wende-Luxury/',
   },
     {
     id: 4,
@@ -48,7 +48,7 @@ const PROJECTS = [
     year: '2026',
     image: `${import.meta.env.BASE_URL}img/law.png`,
     tags: ['Next.js', 'D3.js', 'Supabase', 'WebSockets'],
-    url: 'https://yonas-gadisa-oni.github.io/Restaurant/',
+    url: 'https://yma-law-office.onrender.com/',
   },
 ];
 
