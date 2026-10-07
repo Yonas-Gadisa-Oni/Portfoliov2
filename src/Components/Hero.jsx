@@ -6,10 +6,9 @@ const HERO_ACTIONS = [
 ];
 
 const HERO_STATS = [
-  { value: '>1', label: 'Years Experience' },
-  { value: '2', label: 'Projects Shipped' },
-  { value: '--', label: 'Happy Clients' },
-  { value: '4.9?', label: 'Avg. Rating' },
+  { value: '1+', label: 'Years Experience' },
+  { value: '5', label: 'Projects Shipped' },
+  { value: '2', label: 'Happy Clients' },
 ];
 
 function Hero() {

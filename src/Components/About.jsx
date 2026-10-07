@@ -10,8 +10,7 @@ const About = () => {
             <div className="about-badge">
               <span className="about-badge-label">Trusted by teams</span>
               <p className="about-badge-text">
-                15+ design systems, 120+ product launches, and a decade of building
-                digital experiences that move brands forward.
+                1+ year of experience, 5 projects, and 2 happy clients.
               </p>
             </div>
           </div>

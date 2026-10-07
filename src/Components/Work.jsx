@@ -20,6 +20,36 @@ const PROJECTS = [
     tags: ['Next.js', 'D3.js', 'Supabase', 'WebSockets'],
     url: 'https://yonas-gadisa-oni.github.io/Restaurant/',
   },
+    {
+    id: 3,
+    title: 'Wenda Interior',
+    subtitle: 'Interior Design / Fit-out / Finishing',
+    description: 'WENDA INTERIOR AND FINISHING LLC delivers refined interior design, fit-out, finishing, and property improvement solutions across Dubai and the UAE. We combine thoughtful design with skilled craftsmanship to create spaces that are functional, elegant, and built to last',
+    year: '2026',
+    image: `${import.meta.env.BASE_URL}img/Screenshot%202026-10-07%20191210.png`,
+    tags: ['Next.js', 'D3.js', 'Supabase', 'WebSockets'],
+    url: 'https://yonas-gadisa-oni.github.io/Wende-Luxury/AboutUs',
+  },
+    {
+    id: 4,
+    title: 'aegis ID',
+    subtitle: 'Digital Identity / Security / Privacy',
+    description: 'Aegis ID is a digital identity platform that provides secure and privacy-focused solutions for individuals and organizations. It enables users to manage their digital identities, authenticate securely, and protect their personal information in the digital world.',
+    year: '2026',
+    image: `${import.meta.env.BASE_URL}img/aegis.png`,
+    tags: ['Next.js', 'D3.js', 'Supabase', 'WebSockets'],
+    url: 'https://aegis-id-psi.vercel.app/login',
+  },
+    {
+    id: 5,
+    title: 'YMA LAW OFFICE',
+    subtitle: 'Full-stack / Data Viz',
+    description: 'YMA Law Office (Yigermal Melkam & Advocates) is a premium Ethiopian law office delivering full-service legal counsel across corporate, commercial, and sports law. Founded by Lawyer Yigermal Melkam, a seasoned advocate with direct experience at the Court of Arbitration for Sport (CAS), our office combines international expertise with deep local insight. We represent athletes, financial institutions, corporations, construction firms, and individuals in all regulatory, contractual, and disciplinary matters. Our team includes highly experienced advocates who have successfully handled complex cases before CAS, ETH-ADA, national courts, and international tribunals. At YMA Law Office, we are committed to protecting your rights and advancing your interests with precision, integrity, and unwavering dedication.',
+    year: '2026',
+    image: `${import.meta.env.BASE_URL}img/law.png`,
+    tags: ['Next.js', 'D3.js', 'Supabase', 'WebSockets'],
+    url: 'https://yonas-gadisa-oni.github.io/Restaurant/',
+  },
 ];
 
 function Work() {
